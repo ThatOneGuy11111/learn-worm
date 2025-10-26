@@ -1,0 +1,7 @@
+cd /Users/williamwinter/code
+rm -rf docs
+mkdir docs
+cp -R src/* docs/
+git add docs
+git commit -m "Publish frontend to docs for GitHub Pages"
+git push
